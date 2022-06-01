@@ -5,10 +5,9 @@ This is repository for Purwadhika Data Science and Machine Learning Course.
 
 The data is about travel insurance consisting of features as follows and its data type.
 
-Data columns (total 11 columns):
- #   Column                Non-Null Count  Dtype  
+
 ---  ------                --------------  -----  
- 0   Agency                44328 non-null  object 
+ 0   Agency                44328 ndon-null  object 
  1   Agency Type           44328 non-null  object 
  2   Distribution Channel  44328 non-null  object 
  3   Product Name          44328 non-null  object 
@@ -25,3 +24,4 @@ The packages the were used are pandas, numpy, seaborn, matplotlib, sklearn, cate
 The data is considered very imbalance from seeing the Claim column in comparing between No's and Yes's. It also has a huge amount of NaN values in Gender column, a couple of negative values in Duration and too high Age value which does not make sense and needs to be fixed.
 
 The distribution of the numerical data (Duration, Net Sales, Commision (in value) and it is right skewed which have a tendency towards smaller values.
+
